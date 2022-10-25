@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Conversor de moneda</title>
+	<link type="text/css" href="lib/bootstrap.css" rel="stylesheet"/>
+	<script type="text/javascript" src="lib/jquery.min.js"></script>
+	<script type="text/javascript" src="lib/jquery.mask.min.js"></script>
+	<script type="text/javascript" src="lib/bootstrap.bundle.min.js"></script>
+	<script type="text/javascript" src="conversor.js"></script>
+</head>
+<body>
+	<div class="container">
+		<center><header><h1><strong><font>Conversor de monedas</font></strong></h1></header></center>
+		<center>
+			<div style="width: 900px; height: 400px; background-color: grey">
+				<div style="text-align: left; padding: 10px; margin: 10px;">
+					<div class="row">
+						<div class="col-6">
+							<label><h3>Seleccione moneda</h3></label>
+							<div class="input-group">
+								<select id="tipo_moneda_1" class="input-group-append input-group-addon form-control2">
+									<option value="euro">Euro</option>
+									<option value="dolar">Dolar</option>
+									<option value="pesoMex">Peso Mexicano</option>
+									<option value="pesoArg">Peso Argentino</option>
+									<option value="yen">Yen</option>
+								</select>
+								<span class="input-group-append input-group-addon">
+                                    <span class="input-group-text" style="font-size: 15px;" id="span1"></span>
+                                </span>
+								<input class="form-control money" type="text" id="n1">
+							</div>
+						</div>
+						<div class="col-6">
+							<label><h3>Seleccione moneda</h3></label>
+							<div class="input-group">
+								<select id="tipo_moneda_2" class="input-group-append input-group-addon form-control2">
+									<option value="euro">Euro</option>
+									<option value="dolar">Dolar</option>
+									<option value="pesoMex">Peso Mexicano</option>
+									<option value="pesoArg">Peso Argentino</option>
+									<option value="yen">Yen</option>
+								</select>
+								<span class="input-group-append input-group-addon">
+                                    <span class="input-group-text" style="font-size: 15px;" id="span2"></span>
+                                </span>
+								<input class="form-control money" type="text" id="n2" disabled="false">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</center>
+	</div>
+</body>
+</html>

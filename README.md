@@ -18,8 +18,8 @@ Se ejecutará el html "conversor_moneda" en cualquier navegador, no se necesita 
 
 ## Autores ✒️
 
-* **Henry Martínez** - *Desarrollador y Documentador* - [AlejandroGuerra](https://github.com/HenryAlejandroGuerra)
-* **Diego Guerrero** - *Desarrollador y Documentador* - [Benjamín](https://github.com/Benjamin1207)
+
+
 
 ## Licencia 📄
 
